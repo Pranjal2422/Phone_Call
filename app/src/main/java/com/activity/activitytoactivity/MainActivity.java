@@ -19,8 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button b1 = findViewById(R.id.button1);
-        Button call = findViewById(R.id.call);
-        EditText phone = findViewById(R.id.call_no);
+
 
         //Function to call other activity
         b1.setOnClickListener(new View.OnClickListener() {
@@ -32,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Function to call a phone number
+        Button call = findViewById(R.id.call);
+        EditText phone = findViewById(R.id.call_no);
         call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

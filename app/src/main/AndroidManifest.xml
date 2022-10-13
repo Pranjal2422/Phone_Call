@@ -12,9 +12,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/call_sms"
+        android:icon="@mipmap/ic_launcher"
         android:label="Phone"
-        android:roundIcon="@drawable/call_sms"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Activitytoactivity"
         tools:targetApi="31">
